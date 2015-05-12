@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "MOAR POP",
+  "description": "This extension injects MOAR POP",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "MOAR POP"
+  },
+  "background": {
+    "scripts": ["moar-pop.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
