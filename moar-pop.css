@@ -1,0 +1,2 @@
+.moar-pop * { transition: transform 1s ease-in-out !important }
+.moar-pop *:hover { transform: rotate(360deg) !important }
